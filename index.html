@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <h2>Sign-up for our 30-day trial. No credit card required.</h2>
+        <img class="circle" src="images/pattern-circles.svg" alt="">
+    </header>
+   
+    <main>
+      <article class="card">
+        <div class="top">
+            <h2 class="views-text">0 pageviews</h2>
+            <h2 class="price"><span class="the-price">$0</span><span class="per-period">/month</span></h2>
+        </div>
+        <div class="progress-bar" style="--width: 0"><div class="slider-btn"><img src="images/icon-slider.svg" alt=""></div></div>
+        <div class="billing">
+          <div class="monthly-billing"> <h3>Monthly Billing</h3> <div class="toggle"><div class="circle-toggle"></div></div></div>
+         
+          <h3>Yearly Billing <span class="percent"> 25% discount</span></h3>
+        </div>
+        <div class="features">
+          <ul>
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+          <a class="trial-btn" href="">Start my trial</a>
+        </div>
+      </article>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
